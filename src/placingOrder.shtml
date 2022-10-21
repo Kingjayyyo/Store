@@ -1,0 +1,53 @@
+<!-- You implement -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Placing Order</title>
+        <!-- CHECK THAT THE PAGE ADAPTS WHEN EXPANDED AND IF U NEED THE BELOW -->
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+
+    <body>
+        <div class="background">
+            <h1>
+                <span class="topHeading">
+                    <u>Placing Order</u>
+                </span>
+
+            </h1>
+            
+                <div class="Div3">
+                    <form action="processing/placingOrder.php" method="post">
+                        <p>
+                            <u>Item Serial #</u>
+                            <input id = "Item" type="text" name="serialNumber" required autofocus placeholder="umd-item-0000">
+                        </p>
+                        <p>
+                            <u>Credit Card #</u>
+                            <input name="cc1" type="tel" maxlength="4" required> - <input name="cc2" type="tel" maxlength="4" required> - <input name="cc3" type="tel" maxlength="4" required> - <input name="cc4" type="tel" maxlength="4" required>
+                        </p>
+                        <p>
+                            <u>Shipping Address</u>
+                            <input id="address" type="search" name="shipping" maxlength="80" required>
+                        </p>
+                        <p> 
+                            <!-- id and name are different attributes -->
+                            <u>Contact Email Address:</u>
+                            <input id="emailaddress" type="email" name="email"  placeholder="example@terpmail.umd.edu">
+                        </p>
+                        <p>
+                            <input type="submit" value="Submit Order">
+                            <input type="reset" value="Clear">
+                        </p>
+                    </form>
+                </div>
+            <div class="indexFooter">
+                <div class="bottom">
+                    <i><!--#include virtual="footer.shtml" --></i>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

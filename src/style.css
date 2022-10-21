@@ -1,0 +1,157 @@
+/* You implement */
+
+.background {
+    width: 70rem;
+    height: 70rem;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 0.65rem;
+    border-color: green;
+    background-image: url('images/JimHenson.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.topHeading {
+    font-size: 4rem;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, .4);
+    color: azure;
+    width: 20rem;
+    padding-left: 1rem;
+}
+
+.Div1 {
+    position: relative;
+    background-color: rgb(211,211,211, 0.8);
+    left: 13em;
+    top: 13em;
+    width: 25rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: black;
+    text-align: center;
+    height: 5rem;
+    font-size: 1.7rem;
+    
+}
+
+.Div2 {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.85);
+    left: 1em;
+    top: 1em;
+    width: 25rem;
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: azure;
+    height: 26rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-left: 1em;
+    
+}
+
+.Div3 {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.85);
+    left: 1em;
+    top: 1em;
+    width: 25rem;
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: azure;
+    height: 15rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-left: 1em;
+    
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    font-size: smaller;
+}
+
+a:visited {
+    color: beige
+}
+
+.indexFooter {
+    height: 3rem;
+    top: 67.3rem;
+    width: 69.2rem;
+    background-color: lightblue;
+    position: absolute;
+    padding: 0.5em;
+
+}
+
+.bottom {
+    background-color: red;
+    margin: 0em;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: sans-serif;
+    border-style: ridge;
+    border-width: 0.5rem;
+    border-color: lightgrey;
+}
+
+input[type="number"] {
+    border-width: 0.2rem;
+    border-color: red;
+    border-style: solid;
+}
+
+input[type="text"] {
+    border-width: 0.2rem;
+    border-color: red;
+    border-style: solid;
+}
+
+input[type="email"] {
+    border-width: 0.2rem;
+    border-color: red;
+    border-style: solid;
+    width: 11.5rem;
+}
+
+input[type="search"] {
+    border-width: 0.2rem;
+    border-color: red;
+    border-style: solid;
+}
+
+input[type="tel"] {
+    border-width: 0.2rem;
+    border-color: red;
+    border-style: solid;
+    width: 1.8rem;
+}
+
+option {
+    border-width: 0.2rem;
+    border-color: red;
+    border-style: solid;
+}
+
+input[type="submit"] {
+    border-style: double;
+    border-radius: 0.2rem;
+    height: 2rem;
+    width: 6.5rem;
+}
+
+input[type="reset"] {
+    border-style: double;
+    border-radius: 0.2rem;
+    height: 2rem;
+    width: 6.5rem;
+}

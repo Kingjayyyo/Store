@@ -1,0 +1,33 @@
+<!-- You implement -->
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Terp Store</title>
+        <!-- CHECK THAT THE PAGE ADAPTS WHEN EXPANDED AND IF U NEED THE BELOW -->
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+
+    <body>
+        <div class="background">
+            <h1>
+                <span class="topHeading">
+                    <u>Terp Store</u>
+                </span>
+
+            </h1>
+            
+                <div class="Div1">
+                    <a href="catalogInquiry.shtml">Catalog Inquiry</a>
+                    <br>
+                    <a href="placingOrder.shtml">Placing Order</a>
+                </div>
+            <div class="indexFooter">
+                <div class="bottom">
+                    <i><!--#include virtual="footer.shtml" --></i>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

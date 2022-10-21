@@ -1,0 +1,67 @@
+<!-- You implement -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Catalog Inquiry</title>
+        <!-- CHECK THAT THE PAGE ADAPTS WHEN EXPANDED AND IF U NEED THE BELOW -->
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+
+    <body>
+        <div class="background">
+            <h1>
+                <span class="topHeading">
+                    <u>Catalog Inquiry</u>
+                </span>
+
+            </h1>
+            
+                <div class="Div2">
+                    <form action="http://npp.cs.umd.edu/cmsc335/projects/TerpStore/catalogInquiry.php" method="get">
+                        <p>
+                            <u>Item Category</u>
+                            <input id = "Item" type="text" list="Item-Category" name="item-choice" required autofocus>
+                            <datalist id="Item-Category">
+                                <option value="clothes">clothes</option>
+                                <option value="books">books</option>
+                                <option value="music">music</option>
+                                <option value="food">food</option>
+                                <option value="other">other</option>
+                            </datalist>
+                        </p>
+                        <p>
+                            <u>Maximum Cost ($)</u>
+                            <input id="Cost" name="maximumCost" type="number" min="1" max="1000" step="5" value="1">
+                        </p>
+                        <p>
+                            <input type="checkbox" name="availableOnCampus"><u>Available on Campus</u>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="availableOnline" checked="checked"><u>Available Online</u>
+                        </p>
+                        <p>
+                            <u>Additional Information</u><br/>
+                            <textarea rows="7" cols="33" name="info"></textarea>
+                        </p>
+                        <p>
+                            <!-- id and name are different attributes -->
+                            <u>Contact Email Address:</u>
+                            <input id="emailaddress" type="email" name="email"  placeholder="example@terpmail.umd.edu">
+                        </p>
+                        <p>
+                            <input type="submit" value="Submit Inquiry">
+                            <input type="reset" value="Clear">
+                        </p>
+        
+                    </form>
+                </div>
+            <div class="indexFooter">
+                <div class="bottom">
+                    <i><!--#include virtual="footer.shtml" --></i>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

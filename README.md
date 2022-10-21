@@ -1,3 +1,3 @@
 # Store
 
-Implemented a system called "Terp Store" by allowing users to inquire about store items and to submit orders and by implementing .shtml, css, and .php
+Implemented a system called "Terp Store" by allowing users to inquire about store items and to submit orders by implementing .shtml, css, and .php
